@@ -10,6 +10,12 @@ function frameIt(){
     $('img').addClass('tasty')
   })
 }
+
+function pressIt(){
+  $('input').on('keydown', function(){
+    alert('you pressed the G key!')
+  })
+}
 /*
 $(document).ready(function(){
 
