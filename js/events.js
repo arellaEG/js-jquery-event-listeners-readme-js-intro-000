@@ -1,6 +1,6 @@
 function getIt(){
-  $('p').on('click', function(click){
-    if (key.which==click){
+  $('p').on('click', function(){
+    if ('currentTarget'==='click'){
       alert ('Hey!')
     }
   })
